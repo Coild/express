@@ -1,3 +1,4 @@
 [build]
-    publish = "frontend/build"
-    functions = "functions"
+  command = "CI= npm run build" 
+  functions = "backend"
+  publish = "frontend/build"
